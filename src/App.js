@@ -7,7 +7,9 @@ function App() {
 	};
 	return (
 		<>
-			<Input placeholder={"Your name"} onChange={handleChange}></Input>
+			<div className="input__wrapper">
+				<Input placeholder={"Your name"} onChange={handleChange}></Input>
+			</div>
 		</>
 	);
 }

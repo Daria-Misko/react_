@@ -1,0 +1,12 @@
+.input {
+	border: 1px solid rgba(38, 75, 207, 0.527);
+	border-radius: 20px;
+	height: 20px;
+	padding: 3px 3px 3px 10px;
+}
+
+.input::placeholder {
+	font-weight: bold;
+	opacity: 0.3;
+	color: red;
+}
