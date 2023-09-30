@@ -1,0 +1,17 @@
+.card-wrapper {
+	max-width: 18rem;
+	margin: 0 auto;
+}
+
+.counter-card {
+	display: flex;
+	justify-content: center;
+	gap: 7px;
+	align-items: center;
+}
+
+.reset-btn {
+	width: 120px;
+	margin: 0 auto;
+	margin-bottom: 8px;
+}

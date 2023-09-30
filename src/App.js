@@ -1,14 +1,16 @@
 import "./App.css";
-import { Input } from "./components/Input/Input";
+import { Counter } from "./components/Counter/Counter";
+// import { Input } from "./components/Input/Input";
 
 function App() {
-	const handleChange = (name) => {
-		console.log(name);
-	};
+	// const handleChange = (name) => {
+	// 	console.log(name);
+	// };
 	return (
 		<>
 			<div className="input__wrapper">
-				<Input placeholder={"Your name"} onChange={handleChange}></Input>
+				{/* <Input placeholder={"Your name"} onChange={handleChange}></Input> */}
+				<Counter />
 			</div>
 		</>
 	);
