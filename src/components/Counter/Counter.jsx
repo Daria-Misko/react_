@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Input } from "../Input/Input";
+import { Input } from "../TaskInput/TaskInput";
 import "./Counter.css";
 
 const Counter = () => {

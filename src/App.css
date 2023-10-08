@@ -1,4 +1,14 @@
-.input__wrapper {
-	text-align: center;
-	margin-top: 20px;
+.wrapper {
+	padding: 50px;
+}
+
+.dark {
+	background-color: black;
+	color: azure;
+}
+
+.button {
+	position: absolute;
+	top: 20px;
+	right: 20px;
 }
