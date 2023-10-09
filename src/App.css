@@ -7,6 +7,11 @@
 	color: azure;
 }
 
+.light {
+	background-color: white;
+	color: black;
+}
+
 .button {
 	position: absolute;
 	top: 20px;

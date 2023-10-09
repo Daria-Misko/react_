@@ -6,8 +6,15 @@ const useTheme = (defaultTheme = "light") => {
 	});
 
 	useEffect(() => {
+		const currentClasses = document.body.classList;
+
+		// Видаляємо всі можливі тематичні класи
+		// Цей список потрібно буде розширювати, якщо буде більше тем
+		currentClasses.remove("light", "dark");
+
+		// Додаємо поточний клас теми
+		document.body.classList.add(theme);
 		localStorage.setItem("theme", theme);
-		document.body.className = theme;
 	}, [theme]);
 
 	return [theme, setTheme];
